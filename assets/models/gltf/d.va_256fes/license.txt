@@ -1,0 +1,11 @@
+Model Information:
+* title:	D.va (256fes)
+* source:	https://sketchfab.com/3d-models/dva-256fes-68073c182c4043fd9bb95ef6d705d7db
+* author:	the_regressor (https://sketchfab.com/the-regressor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "D.va (256fes)" (https://sketchfab.com/3d-models/dva-256fes-68073c182c4043fd9bb95ef6d705d7db) by the_regressor (https://sketchfab.com/the-regressor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

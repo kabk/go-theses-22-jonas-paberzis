@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Daydream';
+    src: url('Daydream.woff2') format('woff2'),
+        url('Daydream.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url('Minecraft.woff2') format('woff2'),
+        url('Minecraft.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '04b';
+    src: url('04b30.woff2') format('woff2'),
+        url('04b30.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PixelatedPusab';
+    src: url('PixelatedPusab.woff2') format('woff2'),
+        url('PixelatedPusab.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pixeled';
+    src: url('Pixeled.woff2') format('woff2'),
+        url('Pixeled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Retro Computer';
+    src: url('RetroComputer.woff2') format('woff2'),
+        url('RetroComputer.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Retro Gaming';
+    src: url('RetroGaming.woff2') format('woff2'),
+        url('RetroGaming.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
