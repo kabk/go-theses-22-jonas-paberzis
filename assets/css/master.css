@@ -57,51 +57,6 @@
 }
 
 @font-face {
-    font-family: 'Redaction 20';
-    src: url('../fonts/new/Redaction20-Italic.woff2') format('woff2'),
-        url('../fonts/new/Redaction20-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 20';
-    src: url('../fonts/new/Redaction20-Regular.woff2') format('woff2'),
-        url('../fonts/new/Redaction20-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 35';
-    src: url('../fonts/new/Redaction35-Bold.woff2') format('woff2'),
-        url('../fonts/new/Redaction35-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 20';
-    src: url('../fonts/new/Redaction20-Bold.woff2') format('woff2'),
-        url('../fonts/new/Redaction20-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 35';
-    src: url('../fonts/new/Redaction35-Regular.woff2') format('woff2'),
-        url('../fonts/new/Redaction35-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Redaction 50';
     src: url('../fonts/new/Redaction50-Italic.woff2') format('woff2'),
         url('../fonts/new/Redaction50-Italic.woff') format('woff');
@@ -111,45 +66,9 @@
 }
 
 @font-face {
-    font-family: 'Redaction 35';
-    src: url('../fonts/new/Redaction35-Italic.woff2') format('woff2'),
-        url('../fonts/new/Redaction35-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'Redaction 50';
     src: url('../fonts/new/Redaction50-Bold.woff2') format('woff2'),
         url('../fonts/new/Redaction50-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 70';
-    src: url('../fonts/new/Redaction70-Regular.woff2') format('woff2'),
-        url('../fonts/new/Redaction70-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 70';
-    src: url('../fonts/new/Redaction70-Italic.woff2') format('woff2'),
-        url('../fonts/new/Redaction70-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 70';
-    src: url('../fonts/new/Redaction70-Bold.woff2') format('woff2'),
-        url('../fonts/new/Redaction70-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -219,34 +138,13 @@
 }
 
 @font-face {
-    font-family: 'Redaction 10';
-    src: url('../fonts/new/Redaction10-Bold.woff2') format('woff2'),
-        url('../fonts/new/Redaction10-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Redaction 10';
-    src: url('../fonts/new/Redaction10-Regular.woff2') format('woff2'),
-        url('../fonts/new/Redaction10-Regular.woff') format('woff');
+    font-family: 'Kitchen Sink';
+    src: url('../fonts/title/KitchenSink.woff2') format('woff2'),
+        url('../fonts/title/KitchenSink.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Redaction 10';
-    src: url('../fonts/new/Redaction10-Italic.woff2') format('woff2'),
-        url('../fonts/new/Redaction10-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-
-
 
 
 /* VARIABLES */
@@ -476,23 +374,23 @@ object:hover {
   background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 0;
   text-align:center;
   overflow: hidden;
   box-shadow: 0 0 30px 15px inset blue;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding-top:30px;
+  padding-bottom:30px;
   text-decoration: none;
-  font-size: 15px;
-  color: purple;
-  display: block;
+  color: black;
   transition: 0.3s;
   font-family: 'Redaction 100';
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
+  display: block!important;
 }
 
 .sidenav a:hover{
@@ -501,10 +399,11 @@ object:hover {
 
 .sidenav .closebtn {
   position: absolute;
+  padding: 8px 8px 8px 8px!important;
   top: 0;
   right: 10px;
   font-size:2.25rem;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   color: blue;
 }
 
@@ -729,7 +628,6 @@ object:hover {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 15px;
-  color: purple;
   display: block;
   transition: 0.3s;
   text-transform: uppercase;
@@ -785,7 +683,13 @@ object:hover {
   width: 80%;
   margin-top: 7vh;
   margin-bottom: 7vh;
-  font-family: monospace;
+
+  font-family: 'Kitchen Sink';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.6rem;
+
+
   transform: rotateY(0) rotateX(-15deg);
   box-shadow: 0 0 1.8rem 0.9rem inset blue;
 }
@@ -797,7 +701,6 @@ object:hover {
   animation-duration: 60s;
   animation-timing-function: inherit;
   animation-iteration-count: inherit;
-  font-size: 2.2rem;
   position: relative;
   height: 2rem;
   width: 2rem;
@@ -808,12 +711,10 @@ object:hover {
   animation-direction: reverse;
 }
 .preloader__sector {
-  font-weight: 500;
   position: absolute;
   top: 0;
   left: 0;
   text-align: center;
-  text-transform: uppercase;
   transform: translateZ(7.5rem);
 }
 .preloader__sector, .preloader__sector:empty:before {
@@ -977,6 +878,7 @@ body {
   width:100%;
   height:100%;
   overflow-y:auto;
+  overflow-x: hidden;
 }
 
 mark {
@@ -1084,6 +986,8 @@ h3{
   line-height:125%;
   padding: 10px;
   margin: 10px;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 h4{
@@ -1140,6 +1044,8 @@ div.page-wrapper {
 
 header{
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
 header h1{
@@ -1290,6 +1196,31 @@ footer{
 }
 @media (min-width: 1320px) and (max-width: 1619px) {
   :root{ --font-size: 26px; } html, body {font: var(--font-size) var(--font-family);}
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue;
+    box-shadow: 0 0 30px 30px blue;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    box-shadow: 0 0 30px 30px #555;
+  }
+
+  .sidenav a {
+    display: inline-block!important;
+  }
 }
 @media (min-width: 1620px) and (max-width: 1879px) {
   :root{ --font-size: 28px; } html, body {font: var(--font-size) var(--font-family);}
@@ -1313,6 +1244,10 @@ footer{
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
     box-shadow: 0 0 30px 30px #555;
+  }
+
+  .sidenav a {
+    display: inline-block!important;
   }
 }
 @media (min-width: 1880px) {
@@ -1338,6 +1273,9 @@ footer{
     background: #555;
     box-shadow: 0 0 30px 30px #555;
   }
+  .sidenav a {
+    display: inline-block!important;
+  }
 
 }
 
@@ -1351,15 +1289,6 @@ footer{
   /* style this one first and then use the two others to 'override' some styles (exceptions/details) */
 
   h2{
-    /* h2 style */
-    /* font-family: 'Alagard'; */
-    /* font-family: 'Daydream'; */
-    /* font-family: 'Minecraft'; */
-    /* font-family: '04b'; */
-    /* font-family: 'PixelatedPusab'; */
-    /* font-family: 'Pixeled'; */
-    /* font-family: 'Retro Computer'; */
-    /* font-family: 'Retro Gaming'; */
     font-family: 'Redaction 50';
     font-weight: bold;
     font-style: italic;
