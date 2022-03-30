@@ -17,11 +17,11 @@
           backface-visibility: hidden;
   font-size: 1rem;
   line-height: 0;
-  -webkit-vertical-align: middle;!important;
-  -moz-vertical-align: middle;!important;
-  -ms-vertical-align: middle;!important;
-  -o-vertical-align: middle;!important;
-  vertical-align: middle;
+  -webkit-vertical-align: middle!important;
+  -moz-vertical-align: middle!important;
+  -ms-vertical-align: middle!important;
+  -o-vertical-align: middle!important;
+  vertical-align: middle!important;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -webkit-transition-property: background-color;
