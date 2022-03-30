@@ -368,7 +368,11 @@ object:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 15;
+  -webkit-z-index: 20!important;
+  -moz-z-index: 20!important;
+  -ms-z-index: 20!important;
+  -o-z-index: 20!important;
+  z-index: 20!important;
   top: 0;
   left: 0;
   background-color: white;
@@ -415,8 +419,15 @@ object:hover {
 .burger {
   right: 0px;
   font-size:50px;
-  position: -webkit-sticky;
-  position: sticky;
+  position: -webkit-sticky!important;
+  position: -moz-sticky!important;
+  position: -ms-sticky!important;
+  position: -o-sticky!important;
+  position: sticky!important;
+  -webkit-position: sticky!important;
+  -moz-position: sticky!important;
+  -ms-position: sticky!important;
+  -o-position: sticky!importantZ;
   top:10px;
   text-align: right;
   left: 100vw;
@@ -452,7 +463,11 @@ object:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 15;
+  -webkit-z-index: 20!important;
+  -moz-z-index: 20!important;
+  -ms-z-index: 20!important;
+  -o-z-index: 20!important;
+  z-index: 20!important;
   top: 0;
   right: 0;
   background-color: white;
@@ -496,8 +511,22 @@ object:hover {
 .burger1 {
   font-family: 'Millennium';
   font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
+  -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: black!important;
+  -moz-text-stroke-color: black!important;
+  -ms-text-stroke-color: black!important;
+  -o-text-stroke-color: black!important;
+  text-stroke-color: black!important;
 }
 
 
@@ -506,7 +535,11 @@ object:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 15;
+  -webkit-z-index: 20!important;
+  -moz-z-index: 20!important;
+  -ms-z-index: 20!important;
+  -o-z-index: 20!important;
+  z-index: 20!important;
   top: 0;
   right: 0;
   background-color: white;
@@ -550,8 +583,22 @@ object:hover {
 .burger2 {
   font-family: 'Millennium';
   font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
+  -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: black!important;
+  -moz-text-stroke-color: black!important;
+  -ms-text-stroke-color: black!important;
+  -o-text-stroke-color: black!important;
+  text-stroke-color: black!important;
 }
 
 
@@ -560,7 +607,11 @@ object:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 15;
+  -webkit-z-index: 20!important;
+  -moz-z-index: 20!important;
+  -ms-z-index: 20!important;
+  -o-z-index: 20!important;
+  z-index: 20!important;
   top: 0;
   right: 0;
   background-color: white;
@@ -604,8 +655,22 @@ object:hover {
 .burger3 {
   font-family: 'Millennium';
   font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
+  -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: black!important;
+  -moz-text-stroke-color: black!important;
+  -ms-text-stroke-color: black!important;
+  -o-text-stroke-color: black!important;
+  text-stroke-color: black!important;
 }
 
 
@@ -614,7 +679,11 @@ object:hover {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 15;
+  -webkit-z-index: 20!important;
+  -moz-z-index: 20!important;
+  -ms-z-index: 20!important;
+  -o-z-index: 20!important;
+  z-index: 20!important;
   top: 0;
   right: 0;
   background-color: white;
@@ -656,9 +725,22 @@ object:hover {
 
 .burger4 {
   font-family: 'Millennium';
-  font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
+  -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: black!important;
+  -moz-text-stroke-color: black!important;
+  -ms-text-stroke-color: black!important;
+  -o-text-stroke-color: black!important;
+  text-stroke-color: black!important;
 }
 
 
@@ -670,7 +752,6 @@ object:hover {
 
 .preloader {
     display: flex;
-    height: 100vh;
 }
 
 .preloader {
@@ -679,18 +760,26 @@ object:hover {
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 70vh;
+  height: 65vh;
   width: 80%;
-  margin-top: 7vh;
-  margin-bottom: 7vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  -webkit-z-index: 10!important;
+  -moz-z-index: 10!important;
+  -ms-z-index: 10!important;
+  -o-z-index: 10!important;
+  z-index: 10!important;
 
   font-family: 'Kitchen Sink';
   font-weight: normal;
   font-style: normal;
   font-size: 1.6rem;
 
-
-  transform: rotateY(0) rotateX(-15deg);
+  -webkit-transform: rotateY(0) rotateX(-15deg)!important;
+  -moz-transform: rotateY(0) rotateX(-15deg)!important;
+  -ms-transform: rotateY(0) rotateX(-15deg)!important;
+  -o-transform: rotateY(0) rotateX(-15deg)!important;
+  transform: rotateY(0) rotateX(-15deg)!important;
   box-shadow: 0 0 1.8rem 0.9rem inset blue;
 }
 .preloader, .preloader__ring {
@@ -878,6 +967,10 @@ body {
   width:100%;
   height:100%;
   overflow-y:auto;
+  -webkit-overflow-x: hidden;
+  -moz-overflow-x: hidden;
+  -ms-overflow-x: hidden;
+  -o-overflow-x: hidden;
   overflow-x: hidden;
 }
 
@@ -892,8 +985,11 @@ img{
 }
 
 u{
-  -webkit-text-decoration-thickness: 20%;
-  text-decoration-thickness: 20%;
+  -webkit-text-decoration-thickness: 25%!important;
+  -moz-text-decoration-thickness: 25%!important;
+  -ms-text-decoration-thickness: 25%!important;
+  -o-text-decoration-thickness: 25%!important;
+  text-decoration-thickness: 25%!important;
   -webkit-text-decoration-color: blue;
   text-decoration-color: blue;
 }
@@ -933,6 +1029,20 @@ h2{
   padding-top: 1rem;
   font-family: 'Redaction 50';
   font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
+  -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: blue!important;
+  -moz-text-stroke-color: blue!important;
+  -ms-text-stroke-color: blue!important;
+  -o-text-stroke-color: blue!important;
+  text-stroke-color: blue!important;
   font-style: italic;
   width:100%;
   height:100%;
