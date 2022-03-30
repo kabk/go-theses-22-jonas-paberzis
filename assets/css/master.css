@@ -347,6 +347,18 @@ object:hover {
 
 
 .collapsible {
+  box-sizing: border-box;
+  box-shadow: 0 0 15px 15px blue;
+  -moz-box-sizing: border-box;
+  display: inline-block;
+  padding: 0.35em;
+  margin: 0 0.1em 0 0.2em;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  /* background-color: rgba(255, 0, 255, 0.2); */
+  background-color: blue;
+  color: white!important;
 }
 
 .active, .collapsible:hover {
@@ -356,7 +368,7 @@ object:hover {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  box-shadow: 0 0 30px 15px blue inset;
 }
 
 
@@ -729,6 +741,7 @@ object:hover {
   -moz-font-weight: bold!important;
   -ms-font-weight: bold!important;
   -o-font-weight: bold!important;
+  font-weight: bold;
   font-style: italic;
   cursor:pointer;
   -webkit-text-stroke-width: 0.01vh!important;
@@ -980,7 +993,7 @@ mark {
 }
 
 img{
-  box-shadow: 0 0 10px 5px blue !important;
+  box-shadow: 0 0 15px 8px blue !important;
   margin-top: 20px;
 }
 
@@ -1109,6 +1122,38 @@ h4{
   color: blue;
 }
 
+h5{
+  width:100%;
+  height:30vw;
+  background-color:transparent;
+  align-self:start;
+  margin: 0;
+  padding: 0.5rem;
+  padding-top: 1rem;
+  font-family: 'Redaction 50';
+  font-weight: bold;
+  -webkit-font-weight: bold!important;
+  -moz-font-weight: bold!important;
+  -ms-font-weight: bold!important;
+  -o-font-weight: bold!important;
+  /* -webkit-text-stroke-width: 0.01vh!important;
+  -moz-text-stroke-width: 0.01vh!important;
+  -ms-text-stroke-width: 0.01vh!important;
+  -o-text-stroke-width: 0.01vh!important;
+  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-color: white!important;
+  -moz-text-stroke-color: white!important;
+  -ms-text-stroke-color: white!important;
+  -o-text-stroke-color: white!important;
+  text-stroke-color: white!important; */
+  font-style: italic;
+  width:100%;
+  height:100%;
+  line-height: 90%;
+  font-size:2.25rem;
+  color: white !important;
+}
+
 h5, h6{
   /* h4-h5-h6 style */
 }
@@ -1235,7 +1280,12 @@ main{
 }
 
 footer{
-  margin-top:5rem;
+  margin-top: 2rem;
+}
+
+footer p{
+  margin-top: 1.5rem;
+  text-align: right;
 }
 
 

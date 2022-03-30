@@ -41,7 +41,7 @@
   background-color: blue;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  box-shadow: 0 0 30px 20px blue !important;
+  box-shadow: 0 0 40px 20px blue !important;
 }
 .bigfoot-footnote__button:after {
   content: '';
@@ -112,7 +112,7 @@
   -webkit-transform: scale(1) translateZ(0);
           transform: scale(1) translateZ(0);
   opacity: 0.97;
-  box-shadow: 0 0 30px 10px blue !important;
+  box-shadow: 0 0 40px 20px blue !important;
 }
 .bigfoot-footnote.is-bottom-fixed {
   position: fixed;
@@ -135,7 +135,7 @@
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  box-shadow: 0 0 30px 10px blue !important;
+  box-shadow: 0 0 40px 20px blue !important;
 }
 .bigfoot-footnote.is-bottom-fixed .bigfoot-footnote__wrapper {
   margin: 0 0 0 50%;
@@ -217,7 +217,7 @@
   z-index: 50;
   display: inline-block;
   max-height: 15em;
-  padding: 1.1em 1.3em 1.2em;
+  padding: 1.1em 0.2em 1.2em;
   box-sizing: inherit;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -280,7 +280,7 @@
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  box-shadow: 0 0 30px 10px blue !important;
+  box-shadow: 0 0 40px 20px blue !important;
 }
 
 .bigfoot-footnote__wrapper {
