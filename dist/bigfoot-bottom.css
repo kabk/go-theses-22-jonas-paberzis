@@ -7,7 +7,8 @@
   -moz-box-sizing: border-box;
   display: inline-block;
   padding: 0.35em;
-  margin: 0 0.1em 0 0.2em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
   border: none;
   border-radius: 0.3em;
   cursor: pointer;
@@ -17,11 +18,11 @@
           backface-visibility: hidden;
   font-size: 1rem;
   line-height: 0;
-  -webkit-vertical-align: middle!important;
-  -moz-vertical-align: middle!important;
-  -ms-vertical-align: middle!important;
-  -o-vertical-align: middle!important;
-  vertical-align: middle!important;
+  -webkit-vertical-align: bottom!important;
+  -moz-vertical-align: bottom!important;
+  -ms-vertical-align: bottom!important;
+  -o-vertical-align: bottom!important;
+  vertical-align: bottom!important;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -webkit-transition-property: background-color;

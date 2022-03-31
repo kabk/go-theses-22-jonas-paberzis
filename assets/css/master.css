@@ -185,11 +185,10 @@
 }
 
 #wrapper {
-  padding-top: 10%;
 }
 
 .viewport {
-  margin-top: 20vh;
+  margin-top: calc(var(--vh, 1vh) * 30);
   -webkit-perspective: 250px;
   -moz-perspective: 250px;
   -ms-perspective: 250px;
@@ -534,11 +533,11 @@ object:hover {
   -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
-  -webkit-text-stroke-width: 0.01vh!important;
-  -moz-text-stroke-width: 0.01vh!important;
-  -ms-text-stroke-width: 0.01vh!important;
-  -o-text-stroke-width: 0.01vh!important;
-  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-width: 0.005vh!important;
+  -moz-text-stroke-width: 0.005vh!important;
+  -ms-text-stroke-width: 0.005vh!important;
+  -o-text-stroke-width: 0.005vh!important;
+  text-stroke-width: 0.005vh!important;
   -webkit-text-stroke-color: black!important;
   -moz-text-stroke-color: black!important;
   -ms-text-stroke-color: black!important;
@@ -606,11 +605,11 @@ object:hover {
   -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
-  -webkit-text-stroke-width: 0.01vh!important;
-  -moz-text-stroke-width: 0.01vh!important;
-  -ms-text-stroke-width: 0.01vh!important;
-  -o-text-stroke-width: 0.01vh!important;
-  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-width: 0.005vh!important;
+  -moz-text-stroke-width: 0.005vh!important;
+  -ms-text-stroke-width: 0.005vh!important;
+  -o-text-stroke-width: 0.005vh!important;
+  text-stroke-width: 0.005vh!important;
   -webkit-text-stroke-color: black!important;
   -moz-text-stroke-color: black!important;
   -ms-text-stroke-color: black!important;
@@ -678,11 +677,11 @@ object:hover {
   -o-font-weight: bold!important;
   font-style: italic;
   cursor:pointer;
-  -webkit-text-stroke-width: 0.01vh!important;
-  -moz-text-stroke-width: 0.01vh!important;
-  -ms-text-stroke-width: 0.01vh!important;
-  -o-text-stroke-width: 0.01vh!important;
-  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-width: 0.005vh!important;
+  -moz-text-stroke-width: 0.005vh!important;
+  -ms-text-stroke-width: 0.005vh!important;
+  -o-text-stroke-width: 0.005vh!important;
+  text-stroke-width: 0.005vh!important;
   -webkit-text-stroke-color: black!important;
   -moz-text-stroke-color: black!important;
   -ms-text-stroke-color: black!important;
@@ -749,11 +748,11 @@ object:hover {
   font-weight: bold;
   font-style: italic;
   cursor:pointer;
-  -webkit-text-stroke-width: 0.01vh!important;
-  -moz-text-stroke-width: 0.01vh!important;
-  -ms-text-stroke-width: 0.01vh!important;
-  -o-text-stroke-width: 0.01vh!important;
-  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-width: 0.005vh!important;
+  -moz-text-stroke-width: 0.005vh!important;
+  -ms-text-stroke-width: 0.005vh!important;
+  -o-text-stroke-width: 0.005vh!important;
+  text-stroke-width: 0.005vh!important;
   -webkit-text-stroke-color: black!important;
   -moz-text-stroke-color: black!important;
   -ms-text-stroke-color: black!important;
@@ -780,8 +779,8 @@ object:hover {
   margin: auto;
   height: calc(var(--vh, 1vh) * 65);
   width: 80%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: calc(var(--vh, 1vh) * 5);
+  margin-bottom: calc(var(--vh, 1vh) * 5);
   -webkit-z-index: 10!important;
   -moz-z-index: 10!important;
   -ms-z-index: 10!important;
@@ -793,15 +792,15 @@ object:hover {
   font-style: normal;
   font-size: 1.6rem;
 
-  -webkit-transition: -webkit-transform rotateY(0) rotateX(-15deg)!important;
-  -moz-transition: -moz-transform rotateY(0) rotateX(-15deg)!important;
-  -ms-transition: -ms-transform rotateY(0) rotateX(-15deg)!important;
-  -o-transition: -o-transform rotateY(0) rotateX(-15deg)!important;
-  -webkit-transform: rotateY(0) rotateX(-15deg)!important;
-  -moz-transform: rotateY(0) rotateX(-15deg)!important;
-  -ms-transform: rotateY(0) rotateX(-15deg)!important;
-  -o-transform: rotateY(0) rotateX(-15deg)!important;
-  transform: rotateY(0) rotateX(-15deg)!important;
+  -webkit-transition: -webkit-transform rotateX(-15deg)!important;
+  -moz-transition: -moz-transform rotateX(-15deg)!important;
+  -ms-transition: -ms-transform rotateX(-15deg)!important;
+  -o-transition: -o-transform rotateX(-15deg)!important;
+  -webkit-transform: rotateX(-15deg)!important;
+  -moz-transform: rotateX(-15deg)!important;
+  -ms-transform: rotateX(-15deg)!important;
+  -o-transform: rotateX(-15deg)!important;
+  transform: rotateX(-15deg)!important;
 
   box-shadow: 0 0 1.8rem 0.9rem inset blue;
 }
@@ -1056,11 +1055,11 @@ h2{
   -moz-font-weight: bold!important;
   -ms-font-weight: bold!important;
   -o-font-weight: bold!important;
-  -webkit-text-stroke-width: 0.01vh!important;
-  -moz-text-stroke-width: 0.01vh!important;
-  -ms-text-stroke-width: 0.01vh!important;
-  -o-text-stroke-width: 0.01vh!important;
-  text-stroke-width: 0.01vh!important;
+  -webkit-text-stroke-width: 0.005vh!important;
+  -moz-text-stroke-width: 0.005vh!important;
+  -ms-text-stroke-width: 0.005vh!important;
+  -o-text-stroke-width: 0.005vh!important;
+  text-stroke-width: 0.005vh!important;
   -webkit-text-stroke-color: blue!important;
   -moz-text-stroke-color: blue!important;
   -ms-text-stroke-color: blue!important;
@@ -1138,8 +1137,7 @@ h5{
   background-color:transparent;
   align-self:start;
   margin: 0;
-  padding: 0.5rem;
-  padding-top: 1rem;
+  padding: 0.25rem;
   font-family: 'Redaction 50';
   font-weight: bold;
   -webkit-font-weight: bold!important;
@@ -1171,7 +1169,7 @@ h5, h6{
 p{
   /* paragraph style */
   font-size:0.85rem;
-  line-height:125%;
+  line-height:130%;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -1212,7 +1210,7 @@ div.page-wrapper {
 
 header{
   text-align: center;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100%;
 }
 
@@ -1235,8 +1233,8 @@ header p{
   font-size:2.55vw;
   margin:0;
   padding:0;
-  margin-top:5vh;
-  margin-bottom:5vh;
+  margin-top:calc(var(--vh, 1vh) * 5);
+  margin-bottom:calc(var(--vh, 1vh) * 5);
   /* position: -webkit-sticky;
   position: sticky;
   bottom:4vh; */
@@ -1363,6 +1361,31 @@ footer p{
 }
 @media (min-width: 993px) and (max-width: 1200px) {
   :root{ --font-size: 22px; } html, body {font: var(--font-size) var(--font-family);}
+  /* width */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue;
+    box-shadow: 0 0 30px 30px blue;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    box-shadow: 0 0 30px 30px #555;
+  }
+
+  .sidenav a {
+    display: inline-block!important;
+  }
 }
 @media (min-width: 1201px) and (max-width: 1319px) {
   :root{ --font-size: 24px; } html, body {font: var(--font-size) var(--font-family);}
@@ -1510,6 +1533,27 @@ footer p{
   main{
     padding-left:0%;
     padding-right:0%;
+  }
+
+  .preloader {
+      -webkit-transition: -webkit-transform rotateX(-15deg)!important;
+      -moz-transition: -moz-transform rotateX(-15deg)!important;
+      -ms-transition: -ms-transform rotateX(-15deg)!important;
+      -o-transition: -o-transform rotateX(-15deg)!important;
+      -webkit-transform: rotateX(-15deg)!important;
+      -moz-transform: rotateX(-15deg)!important;
+      -ms-transform: rotateX(-15deg)!important;
+      -o-transform: rotateX(-15deg)!important;
+      transform: rotateX(-15deg)!important;
+  }
+
+
+  .bigfoot-footnote__button {
+    -webkit-vertical-align: bottom!important;
+    -moz-vertical-align: bottom!important;
+    -ms-vertical-align: bottom!important;
+    -o-vertical-align: bottom!important;
+    vertical-align: bottom!important;
   }
 
   /* utilities */
