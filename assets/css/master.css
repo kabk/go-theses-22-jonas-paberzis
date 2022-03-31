@@ -443,7 +443,8 @@ object:hover {
   -webkit-position: sticky!important;
   -moz-position: sticky!important;
   -ms-position: sticky!important;
-  -o-position: sticky!importantZ;
+  -o-position: sticky!important;
+  position: sticky!important;
   top:10px;
   text-align: right;
   left: 100vw;
@@ -801,6 +802,49 @@ object:hover {
   -ms-transform: rotateX(-15deg)!important;
   -o-transform: rotateX(-15deg)!important;
   transform: rotateX(-15deg)!important;
+  transition: rotateX(-15deg)!important;
+
+  mso-transform: rotateX(-15deg)!important;
+  -xv-transform: rotateX(-15deg)!important;
+  -atsc-transform: rotateX(-15deg)!important;
+  -wap-transform: rotateX(-15deg)!important;
+  -khtml-transform: rotateX(-15deg)!important;
+  -konq-transform: rotateX(-15deg)!important;
+  -apple-transform: rotateX(-15deg)!important;
+  prince-transform: rotateX(-15deg)!important;
+  -ah-transform: rotateX(-15deg)!important;
+  -hp-transform: rotateX(-15deg)!important;
+  -ro-transform: rotateX(-15deg)!important;
+  -rim-transform: rotateX(-15deg)!important;
+  -tc-transform: rotateX(-15deg)!important;
+
+  mso-transition: mso-transform rotateX(-15deg)!important;
+  -xv-transition: -xv-transform rotateX(-15deg)!important;
+  -atsc-transition: -atsc-transform rotateX(-15deg)!important;
+  -wap-transition: -wap-transform rotateX(-15deg)!important;
+  -khtml-transition: -khtml-transform rotateX(-15deg)!important;
+  -konq-transition: -konq-transform rotateX(-15deg)!important;
+  -apple-transition: -apple-transform rotateX(-15deg)!important;
+  prince-transition: prince-transform rotateX(-15deg)!important;
+  -ah-transition: -ah-transform rotateX(-15deg)!important;
+  -hp-transition: -hp-transform rotateX(-15deg)!important;
+  -ro-transition: -ro-transform rotateX(-15deg)!important;
+  -rim-transition: -rim-transform rotateX(-15deg)!important;
+  -tc-transition: -tc-transform rotateX(-15deg)!important;
+
+  mso-transition: rotateX(-15deg)!important;
+  -xv-transition: rotateX(-15deg)!important;
+  -atsc-transition: rotateX(-15deg)!important;
+  -wap-transition: rotateX(-15deg)!important;
+  -khtml-transition: rotateX(-15deg)!important;
+  -konq-transition: rotateX(-15deg)!important;
+  -apple-transition: rotateX(-15deg)!important;
+  prince-transition: rotateX(-15deg)!important;
+  -ah-transition: rotateX(-15deg)!important;
+  -hp-transition: rotateX(-15deg)!important;
+  -ro-transition: rotateX(-15deg)!important;
+  -rim-transition: rotateX(-15deg)!important;
+  -tc-transition: rotateX(-15deg)!important;
 
   box-shadow: 0 0 1.8rem 0.9rem inset blue;
 }
@@ -1536,15 +1580,58 @@ footer p{
   }
 
   .preloader {
-      -webkit-transition: -webkit-transform rotateX(-15deg)!important;
-      -moz-transition: -moz-transform rotateX(-15deg)!important;
-      -ms-transition: -ms-transform rotateX(-15deg)!important;
-      -o-transition: -o-transform rotateX(-15deg)!important;
-      -webkit-transform: rotateX(-15deg)!important;
-      -moz-transform: rotateX(-15deg)!important;
-      -ms-transform: rotateX(-15deg)!important;
-      -o-transform: rotateX(-15deg)!important;
-      transform: rotateX(-15deg)!important;
+    -webkit-transition: -webkit-transform rotateX(-15deg)!important;
+    -moz-transition: -moz-transform rotateX(-15deg)!important;
+    -ms-transition: -ms-transform rotateX(-15deg)!important;
+    -o-transition: -o-transform rotateX(-15deg)!important;
+    -webkit-transform: rotateX(-15deg)!important;
+    -moz-transform: rotateX(-15deg)!important;
+    -ms-transform: rotateX(-15deg)!important;
+    -o-transform: rotateX(-15deg)!important;
+    transform: rotateX(-15deg)!important;
+    transition: rotateX(-15deg)!important;
+
+    mso-transform: rotateX(-15deg)!important;
+    -xv-transform: rotateX(-15deg)!important;
+    -atsc-transform: rotateX(-15deg)!important;
+    -wap-transform: rotateX(-15deg)!important;
+    -khtml-transform: rotateX(-15deg)!important;
+    -konq-transform: rotateX(-15deg)!important;
+    -apple-transform: rotateX(-15deg)!important;
+    prince-transform: rotateX(-15deg)!important;
+    -ah-transform: rotateX(-15deg)!important;
+    -hp-transform: rotateX(-15deg)!important;
+    -ro-transform: rotateX(-15deg)!important;
+    -rim-transform: rotateX(-15deg)!important;
+    -tc-transform: rotateX(-15deg)!important;
+
+    mso-transition: mso-transform rotateX(-15deg)!important;
+    -xv-transition: -xv-transform rotateX(-15deg)!important;
+    -atsc-transition: -atsc-transform rotateX(-15deg)!important;
+    -wap-transition: -wap-transform rotateX(-15deg)!important;
+    -khtml-transition: -khtml-transform rotateX(-15deg)!important;
+    -konq-transition: -konq-transform rotateX(-15deg)!important;
+    -apple-transition: -apple-transform rotateX(-15deg)!important;
+    prince-transition: prince-transform rotateX(-15deg)!important;
+    -ah-transition: -ah-transform rotateX(-15deg)!important;
+    -hp-transition: -hp-transform rotateX(-15deg)!important;
+    -ro-transition: -ro-transform rotateX(-15deg)!important;
+    -rim-transition: -rim-transform rotateX(-15deg)!important;
+    -tc-transition: -tc-transform rotateX(-15deg)!important;
+
+    mso-transition: rotateX(-15deg)!important;
+    -xv-transition: rotateX(-15deg)!important;
+    -atsc-transition: rotateX(-15deg)!important;
+    -wap-transition: rotateX(-15deg)!important;
+    -khtml-transition: rotateX(-15deg)!important;
+    -konq-transition: rotateX(-15deg)!important;
+    -apple-transition: rotateX(-15deg)!important;
+    prince-transition: rotateX(-15deg)!important;
+    -ah-transition: rotateX(-15deg)!important;
+    -hp-transition: rotateX(-15deg)!important;
+    -ro-transition: rotateX(-15deg)!important;
+    -rim-transition: rotateX(-15deg)!important;
+    -tc-transition: rotateX(-15deg)!important;
   }
 
 
