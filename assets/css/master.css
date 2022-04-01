@@ -783,8 +783,8 @@ object:hover {
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
-  margin-top: 22vh;
-  margin-bottom: 22vh;
+  margin-top: calc(var(--vh, 1vh) * 22);
+  margin-bottom: calc(var(--vh, 1vh) * 22);
   margin-left: 3.8vw;
   margin-right: 3.8vw;
   padding: 0;
@@ -792,7 +792,7 @@ object:hover {
   display:flex;
   color: red;
   text-align: center;
-  line-height: 28vh;
+  line-height: calc(var(--vh, 1vh) * 28);
 }
 
 
