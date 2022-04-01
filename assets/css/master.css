@@ -775,6 +775,7 @@ object:hover {
   top: 0;
   right: 0;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .gameover a {
@@ -793,6 +794,8 @@ object:hover {
   color: red;
   text-align: center;
   line-height: calc(var(--vh, 1vh) * 28);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 
@@ -1868,6 +1871,7 @@ footer p{
     right: 0;
     background-color: black;
     overflow-x: hidden;
+    overflow-y: hidden;
     box-shadow: 0 0 40px 20px inset red;
   }
 
@@ -1888,6 +1892,7 @@ footer p{
     right: 0;
     background-color: black;
     overflow-x: hidden;
+    overflow-y: hidden;
     box-shadow: 0 0 40px 20px inset red;
   }
 
