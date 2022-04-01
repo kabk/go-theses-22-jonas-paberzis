@@ -444,6 +444,10 @@ object:hover {
   -moz-position: sticky!important;
   -ms-position: sticky!important;
   -o-position: sticky!important;
+  -webkit-position: -webkit-sticky!important;
+  -moz-position: -moz-sticky!important;
+  -ms-position: -ms-sticky!important;
+  -o-position: -o-sticky!important;
   top:10px;
   text-align: right;
   left: 100vw;
@@ -1830,6 +1834,10 @@ footer p{
     -moz-position: sticky!important;
     -ms-position: sticky!important;
     -o-position: sticky!important;
+    -webkit-position: -webkit-sticky!important;
+    -moz-position: -moz-sticky!important;
+    -ms-position: -ms-sticky!important;
+    -o-position: -o-sticky!important;
     top:10px;
 
   /* utilities */
